@@ -9,9 +9,9 @@
     <meta property="og:type" content="website">
 <meta property="og:title" content="Search">
 <meta property="og:url" content="http://caymantao.cn/Search/index.html">
-<meta property="og:site_name" content="知行合一">
+<meta property="og:site_name" content="caymant">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-02-08T14:01:54.187Z">
+<meta property="og:updated_time" content="2018-02-09T04:43:18.871Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Search">
     
@@ -53,7 +53,7 @@
     
   
     <div id="title">
-      <h1>知行合一</h1>
+      <h1>caymant</h1>
     </div>
   </a>
   <div id="nav">
@@ -78,6 +78,15 @@
 
         
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  
+    <section id="search">
+  <form>
+    <input type="text" class="search-input" id="search-input" placeholder="搜索...">
+  </form>
+  <div id="search-result"></div>
+  <p class="search-no-result">抱歉，没有符合您搜索条件的结果。请换其它关键词再试。</p>
+</section>
+
   
   
 
@@ -127,6 +136,35 @@
 <script src="/lib/justified-gallery/jquery.justifiedGallery.min.js"></script>
 <script src="/js/main.js"></script>
 <!-- search -->
+
+  <script src="/js/search.js"></script>
+  <script type="text/javascript">
+    var inputArea = document.querySelector("#search-input");
+    var $resultArea = $("#search-result");
+
+    inputArea.onfocus = function() {
+      var search_path = "search.xml";
+      if (search_path.length == 0) {
+        search_path = "search.xml";
+      }
+      var path = "/" + search_path;
+      searchFunc(path, 'search-input', 'search-result');
+    }
+
+    inputArea.onkeydown = function(){
+        if(event.keyCode==13){
+            return false
+        }
+    }
+
+    $resultArea.bind("DOMNodeRemoved DOMNodeInserted", function(e) {
+        if (!$(e.target).text()) {
+            $(".search-no-result").show(200);
+        } else {
+            $(".search-no-result").hide();
+        }
+    })
+  </script>
 
 <!-- Google Analytics -->
 

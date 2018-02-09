@@ -4,10 +4,15 @@
     
     <entry>
       <title></title>
-      <url>/2018/02/07/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      <url>/2018/02/07/dayone/</url>
       <content type="html"><![CDATA[<hr>
-<p>title: 我的第一篇文章<br>date: 2018-02-07 19:33:43<br>tags:<br>—# 1 #</p>
-]]></content>
+<p>title: 我的第一篇文章<br>date: 2018-02-07 19:33:43<br>tags:<br>—# 测试 #</p>
+<blockquote>
+<p>熟悉语法</p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="#一级标题"></a>#一级标题</h1><p>##二级标题</p>
+</blockquote>
+<hr>
+<font face="微软雅黑" color="black" size="6">字体及字体颜色和大小</font><br><font color="black">字体颜色</font>]]></content>
       
         
     </entry>
