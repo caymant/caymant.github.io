@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/caymant/"/>
-  <updated>2018-02-09T10:15:28.900Z</updated>
+  <updated>2018-02-09T10:18:35.413Z</updated>
   <id>https://github.com/caymant/</id>
   
   <author>
@@ -21,17 +21,17 @@
     <link href="https://github.com/caymant/2018/02/07/the%20experience%20of%20hexo/"/>
     <id>https://github.com/caymant/2018/02/07/the experience of hexo/</id>
     <published>2018-02-07T11:33:43.898Z</published>
-    <updated>2018-02-09T10:15:28.900Z</updated>
+    <updated>2018-02-09T10:18:35.413Z</updated>
     
-    <content type="html"><![CDATA[<hr><p>title: 我的第一篇文章<br>date: 2018-02-07 19:33:43<br>tags:</p><p><font face="微软雅黑" color="black" size="6">Hexo</font><br>是这几天才接触的，折腾了两三天，还有好多可以优化的，百度并没有找到我用的主题的优化教程，等以后慢慢了解在慢慢优化，只要可以发论文自己记录一下假期刷算法题的体会就好。年后还需要买一个域名。facebook,和twitter还不能用，总之翻墙有关的现在都不能用，这里记录一下，还有弄一下评论区，以及搜索的那个小Bug。<br><br>在hexo中如果所修改的文件是Blog文件夹下面的，更改完要重新部署一下，在博客目录文件下面Git Bash:  hexo clean , hexo genarate, hexo deploy。就部署好了。可以hexo s开启服务后本地浏览。如果hexo更改的是特定的主题文件夹下面的内容，直接hexo s刷新界面就好，这块我也有点不确定，可能直接刷新界面就好。都不用重新启动。D:\blog\source这个文件夹下面放的是一些整体配置文章有关的，其实我现在感觉设置完主题之后大部分的操作就在这个文件夹下面就是。附加一个就是项目到底是干嘛的现在还不是很清楚。慢慢学习吧！<br>自己花费很多时间就为了有一个自己的博客，这几天都花费在配置博客上面了，并没有学习什么新的知识，算法题的计划得赶紧赶上。有时候充实起来，真的不用想前途。管他干嘛。学习的状态真的是还有点沉醉，昨天不知不觉就零点了。总之，不要忘了初心。建立这个博客是给自己一个经常总结自己的地方，希望自己不断学习，不断总结。１９年要加油啊！</p>]]></content>
+    <content type="html"><![CDATA[<hr><p>title: ｈｅｘｏ<br>date: 2018-02-07 19:33:43<br>tags:</p><p><font face="微软雅黑" color="black" size="6">Hexo</font><br>是这几天才接触的，折腾了两三天，还有好多可以优化的，百度并没有找到我用的主题的优化教程，等以后慢慢了解在慢慢优化，只要可以发论文自己记录一下假期刷算法题的体会就好。年后还需要买一个域名。facebook,和twitter还不能用，总之翻墙有关的现在都不能用，这里记录一下，还有弄一下评论区，以及搜索的那个小Bug。<br><br>在hexo中如果所修改的文件是Blog文件夹下面的，更改完要重新部署一下，在博客目录文件下面Git Bash:  hexo clean , hexo genarate, hexo deploy。就部署好了。可以hexo s开启服务后本地浏览。如果hexo更改的是特定的主题文件夹下面的内容，直接hexo s刷新界面就好，这块我也有点不确定，可能直接刷新界面就好。都不用重新启动。D:\blog\source这个文件夹下面放的是一些整体配置文章有关的，其实我现在感觉设置完主题之后大部分的操作就在这个文件夹下面就是。附加一个就是项目到底是干嘛的现在还不是很清楚。慢慢学习吧！<br>自己花费很多时间就为了有一个自己的博客，这几天都花费在配置博客上面了，并没有学习什么新的知识，算法题的计划得赶紧赶上。有时候充实起来，真的不用想前途。管他干嘛。学习的状态真的是还有点沉醉，昨天不知不觉就零点了。总之，不要忘了初心。建立这个博客是给自己一个经常总结自己的地方，希望自己不断学习，不断总结。１９年要加油啊！</p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;hr&gt;
-&lt;p&gt;title: 我的第一篇文章&lt;br&gt;date: 2018-02-07 19:33:43&lt;br&gt;tags:&lt;/p&gt;
-&lt;p&gt;&lt;font face=&quot;微软雅黑&quot; color=&quot;black&quot; size=&quot;6&quot;&gt;Hexo&lt;/font&gt;&lt;br&gt;是这几天才接触的，折腾了两三天，
+&lt;p&gt;title: ｈｅｘｏ&lt;br&gt;date: 2018-02-07 19:33:43&lt;br&gt;tags:&lt;/p&gt;
+&lt;p&gt;&lt;font face=&quot;微软雅黑&quot; color=&quot;black&quot; size=&quot;6&quot;&gt;Hexo&lt;/font&gt;&lt;br&gt;是这几天才接触的，折腾了两三天，还有好
       
     
     </summary>
