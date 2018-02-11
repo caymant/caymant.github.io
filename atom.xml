@@ -37,4 +37,25 @@
     
   </entry>
   
+  <entry>
+    <title>TCP/IP三次挥手四次分手</title>
+    <link href="https://github.com/caymant/2018/02/07/TCP%20IP/"/>
+    <id>https://github.com/caymant/2018/02/07/TCP IP/</id>
+    <published>2018-02-07T11:33:43.000Z</published>
+    <updated>2018-02-11T04:48:38.971Z</updated>
+    
+    <content type="html"><![CDATA[<p>###TCP协议的特点:<br>    TCP是在不可靠的TP层之上实现的可靠的数据传输协议，主要解决传输的可靠、有序、无丢失和不重复的问题。TCP是TCP/IP体系中一个非常复杂的协议，主要特点有：<br>1)TCP是面向连接的传输层协议。<br>2）每一条TCP连接只能有两个端点，每一条TCP连接只能是点对点（一对一的）。<br>3）TCP提供可靠的交付服务，保证传送的数据无差错，不丢失，不重复且有序。TCP提供全双工通信。<br>4）TCP是面向字节流的，TCP把应用程序交下来的数据看成仅仅是一连串的无结构的字节流。</p><p>###TCP连接管理：<br>每一个TCP的连接都有三个阶段：连接简历，数据传送和连接释放。TCP连接的端口叫做套接字，socket，端口拼接到IP地址即构成了套接字。每一条TCP连接唯一的被通信两端的两个端点（即两个套接字）所确定。TCP连接的建立采用客户/服务器模式，主动的叫客户机，被动的叫服务器。!<img src="https://i.imgur.com/Zyzmqqr.jpg" alt=""><br>总结如下：<br>（1）连接建立 分为三步<br>1.SYN=1，seq=x.<br>2.SYN=1，ACK=1，seq=y,ack=x+1.<br>3.ACK=1,seq=x+1,ack=y+1.<br>(2)连接释放 分为四步<br>1.FIN=1，seq=u.<br>2.ACK=1,seq=v,ack=u+1.<br>3.FIN=1,ACK=1,SEQ=W,ACK=U+1.<br>4.ACK=1,SEQ=U+1,ACK=W+1.  (注意ACK,SYN,FIN一定等于1)</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;###TCP协议的特点:&lt;br&gt;    TCP是在不可靠的TP层之上实现的可靠的数据传输协议，主要解决传输的可靠、有序、无丢失和不重复的问题。TCP是TCP/IP体系中一个非常复杂的协议，主要特点有：&lt;br&gt;1)TCP是面向连接的传输层协议。&lt;br&gt;2）每一条TCP连接只能
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
 </feed>
